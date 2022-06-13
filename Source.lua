@@ -71,10 +71,10 @@ local Library = {
 		},
 		Nitro = {
 			Main = Color3.fromRGB(10, 10, 10),
-			Secondary = Color3.fromRGB(45, 45, 45),
+			Secondary = Color3.fromRGB(35, 35, 35),
 			Tertiary = Color3.fromRGB(0, 153, 205),
 
-			StrongText = Color3.fromHSV(0, 0, 1),        
+			StrongText = Color3.fromHSV(0, 153, 205),        
 			WeakText = Color3.fromHSV(0, 0, 172/255)
 		},
 
