@@ -74,8 +74,8 @@ local Library = {
 			Secondary = Color3.fromRGB(35, 35, 35),
 			Tertiary = Color3.fromRGB(0, 153, 205),
 
-			StrongText = Color3.fromHSV(0, 153, 205),        
-			WeakText = Color3.fromHSV(0, 153, 205)
+			StrongText = Color3.fromRGB(0, 153, 205),       
+			WeakText = Color3.fromRGB(0, 153, 205),
 		},
 
 		Vaporwave = {},
