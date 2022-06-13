@@ -1,25 +1,23 @@
 --[[
-
-██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-█░░░░░░██████████░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░░░███░░░░░░░░░░░░░░█░░░░░░██░░░░░░█░░░░░░░░░░░░░░░░███░░░░░░░░██░░░░░░░░█
-█░░▄▀░░░░░░░░░░░░░░▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀▄▀░░███░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░██░░▄▀░░█░░▄▀▄▀▄▀▄▀▄▀▄▀░░███░░▄▀▄▀░░██░░▄▀▄▀░░█
-█░░▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░░░░░░░░░█░░▄▀░░░░░░░░▄▀░░███░░▄▀░░░░░░░░░░█░░▄▀░░██░░▄▀░░█░░▄▀░░░░░░░░▄▀░░███░░░░▄▀░░██░░▄▀░░░░█
-█░░▄▀░░░░░░▄▀░░░░░░▄▀░░█░░▄▀░░█████████░░▄▀░░████░░▄▀░░███░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░████░░▄▀░░█████░░▄▀▄▀░░▄▀▄▀░░███
-█░░▄▀░░██░░▄▀░░██░░▄▀░░█░░▄▀░░░░░░░░░░█░░▄▀░░░░░░░░▄▀░░███░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░░░░░░░▄▀░░█████░░░░▄▀▄▀▄▀░░░░███
-█░░▄▀░░██░░▄▀░░██░░▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀▄▀░░███░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀▄▀▄▀▄▀▄▀▄▀░░███████░░░░▄▀░░░░█████
-█░░▄▀░░██░░░░░░██░░▄▀░░█░░▄▀░░░░░░░░░░█░░▄▀░░yue<3▀░░░░███░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░░░░░▄▀░░░░█████████░░▄▀░░███████
-█░░▄▀░░██████████░░▄▀░░█░░▄▀░░█████████░░▄▀░░██░░▄▀░░█████░░▄▀░░█████████░░▄▀░░██░░▄▀░░█░░▄▀░░██░░▄▀░░███████████░░▄▀░░███████
-█░░▄▀░░██████████░░▄▀░░█░░▄▀░░░░░░░░░░█░░▄▀░░██░░▄▀░░░░░░█░░▄▀░░░░░░░░░░█░░▄▀░░░░░░▄▀░░█░░▄▀░░██░░▄▀░░░░░░███████░░▄▀░░███████
-█░░▄▀░░██████████░░▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░██░░▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀▄▀▄▀▄▀▄▀░░█░░▄▀░░██░░▄▀▄▀▄▀░░███████░░▄▀░░███████
-█░░░░░░██████████░░░░░░█░░░░░░░░░░░░░░█░░░░░░██░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░░░░░░░░░█░░░░░░██░░░░░░░░░░███████░░░░░░███████
-██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-
-edited: 1/26
-developers:
-v3rm AbstractPoo	discord Abstract#8007
-v3rm 0xDEITY		discord Deity#0228
-
+ ________   ___  _________  ________  ________     
+|\   ___  \|\  \|\___   ___\\   __  \|\   __  \    
+\ \  \\ \  \ \  \|___ \  \_\ \  \|\  \ \  \|\  \   
+ \ \  \\ \  \ \  \   \ \  \ \ \   _  _\ \  \\\  \  
+  \ \  \\ \  \ \  \   \ \  \ \ \  \\  \\ \  \\\  \ 
+   \ \__\\ \__\ \__\   \ \__\ \ \__\\ _\\ \_______\
+    \|__| \|__|\|__|    \|__|  \|__|\|__|\|_______|
+                                                                                                                                                      
 ]]
+--/////////////////////////////////////////////////
+--[[
+     
+	 Creator
+	 --------
+	 |xG3rsi|
+	 --------
+	 
+]]
+
 
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -90,9 +88,9 @@ local Library = {
 	},
 	WelcomeText = nil,
 	DisplayName = nil,
-	DragSpeed = 0.06,
+	DragSpeed = 0.08,
 	LockDragging = false,
-	ToggleKey = Enum.KeyCode.Home,
+	ToggleKey = Enum.KeyCode.RightControl,
 	UrlLabel = nil,
 	Url = nil
 
@@ -420,27 +418,27 @@ function Library:create(options)
 	}
 
 	if readfile and writefile and isfile then
-		if not isfile("MercurySettings.json") then
-			writefile("MercurySettings.json", HTTPService:JSONEncode(settings))
+		if not isfile("NitroSettings.json") then
+			writefile("NitroSettings.json", HTTPService:JSONEncode(settings))
 		end
-		settings = HTTPService:JSONDecode(readfile("MercurySettings.json"))
+		settings = HTTPService:JSONDecode(readfile("NitroSettings.json"))
 		Library.CurrentTheme = Library.Themes[settings.Theme]
 		updateSettings = function(property, value)
 			settings[property] = value
-			writefile("MercurySettings.json", HTTPService:JSONEncode(settings))
+			writefile("NitroSettings.json", HTTPService:JSONEncode(settings))
 		end
 	end
 
 	options = self:set_defaults({
-		Name = "Mercury",
+		Name = "Nitro",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = "https://github.com/deeeity/mercury-lib"
+		Link = "https://github.com/xG3rsi/Nitro-Library"
 	}, options)
 
-	if getgenv and getgenv().MercuryUI then
-		getgenv():MercuryUI()
-		getgenv().MercuryUI = nil
+	if getgenv and getgenv().NitroUI then
+		getgenv():NitroUI()
+		getgenv().NitroUI = nil
 	end
 
 
@@ -589,7 +587,7 @@ function Library:create(options)
 	end
 
 	if getgenv then
-		getgenv().MercuryUI = closeUI
+		getgenv().NitroUI = closeUI
 	end
 
 	closeButton.MouseButton1Click:connect(function()
