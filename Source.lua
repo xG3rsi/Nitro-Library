@@ -283,7 +283,7 @@ function Library:object(class, properties)
 		tooltipContainer.Size = UDim2.fromOffset(tooltipContainer.TextBounds.X + 16, tooltipContainer.TextBounds.Y + 8)
 
 		local tooltipArrow = tooltipContainer:object("ImageLabel", {
-			Image = "",
+			Image = "http://www.roblox.com/asset/?id=4292970642",
 			Theme = {ImageColor3 = {"Main", 10}},
 			AnchorPoint = Vector2.new(0.5, 0),
 			Rotation = 180,
@@ -431,7 +431,7 @@ function Library:create(options)
 
 	options = self:set_defaults({
 		Name = "Nitro",
-		Size = UDim2.fromOffset(600, 400),
+		Size = UDim2.fromOffset(500, 400),
 		Theme = self.Themes[settings.Theme],
 		Link = "https://github.com/xG3rsi/Nitro-Library"
 	}, options)
@@ -656,7 +656,7 @@ function Library:create(options)
 		Position = UDim2.new(0, 5, 1, -6),
 		Size = UDim2.new(0.2, 0, 0, 10),
 		Font = Enum.Font.SourceSans,
-		Text = "Status | Idle",
+		Text = "Status | Full with Nitro!",
 		Theme = {TextColor3 = "Tertiary"},
 		TextSize = 14,
 		TextXAlignment = Enum.TextXAlignment.Left
@@ -917,8 +917,7 @@ function Library:create(options)
 
 	rawset(mt, "creditsContainer", creditsTab.container)
 
-	creditsTab:credit{Name = "Abstract", Description = "UI Library Developer", Discord = "Abstract#8007", V3rmillion = "AbstractPoo"}
-	creditsTab:credit{Name = "Deity", Description = "UI Library Developer", Discord = "Deity#0228", V3rmillion = "0xDEITY"}
+	creditsTab:credit{Name = "xG3rsi", Description = "UI Library Dev", Discord = "xG3rsi#2436", V3rmillion = "xG3rsi"}
 
 	return mt
 end
