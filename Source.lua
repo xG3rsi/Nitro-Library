@@ -285,7 +285,7 @@ function Library:object(class, properties)
 		tooltipContainer.Size = UDim2.fromOffset(tooltipContainer.TextBounds.X + 16, tooltipContainer.TextBounds.Y + 8)
 
 		local tooltipArrow = tooltipContainer:object("ImageLabel", {
-			Image = "http://www.roblox.com/asset/?id=4292970642",
+			Image = "",
 			Theme = {ImageColor3 = {"Main", 10}},
 			AnchorPoint = Vector2.new(0.5, 0),
 			Rotation = 180,
@@ -1070,7 +1070,7 @@ end
 function Library:tab(options)
 	options = self:set_defaults({
 		Name = "New Tab",
-		Icon = "rbxassetid://5633113836"
+		Icon = "rbxassetid://8569322835"
 	}, options)
 
 	local tab = self.container:object("ScrollingFrame", {
