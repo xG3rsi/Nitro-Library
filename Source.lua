@@ -19,6 +19,7 @@
 ]]
 
 repeat wait() until game:IsLoaded()
+print("Roblox fueld with Nitro ;)")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
@@ -74,8 +75,8 @@ local Library = {
 			Secondary = Color3.fromRGB(35, 35, 35),
 			Tertiary = Color3.fromRGB(0, 153, 205),
 
-			StrongText = Color3.fromRGB(0, 153, 205),       
-			WeakText = Color3.fromRGB(0, 153, 205),
+			StrongText = Color3.fromHSV(0, 0, 0),       
+			WeakText = Color3.fromHSV(0, 0, 0),
 		},
 
 		Vaporwave = {},
