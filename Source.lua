@@ -71,12 +71,12 @@ local Library = {
 			WeakText = Color3.fromHSV(0, 0, 172/255)
 		},
 		Nitro = {
-			Main = Color3.fromRGB(10, 10, 10),
-			Secondary = Color3.fromRGB(35, 35, 35),
+			Main = Color3.fromRGB(35, 35, 35),
+			Secondary = Color3.fromRGB(65, 65, 65),
 			Tertiary = Color3.fromRGB(0, 153, 205),
 
-			StrongText = Color3.fromHSV(0, 0, 0),       
-			WeakText = Color3.fromHSV(0, 0, 0),
+			StrongText = Color3.fromHSV(0.552941, 1.0, 1),	       
+			WeakText = Color3.fromHSV(0, 0, 172/255)
 		},
 
 		Vaporwave = {},
